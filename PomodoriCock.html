@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pomodori Cock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="curtain"></div>
+    <div class="explosion"></div>
+    <h1>Pomodori Cock</h1>
+    <div class="timer">
+        <p class="time">25:00</p>
+        <p id="status" class="status">Arbeitszeit</p>
+    </div>
+    <div class="settings">
+        <div class="setting">
+            <label for="work-time">Arbeitszeit:</label>
+            <div class="time-input">
+                <input type="number" id="work-time" value="25" min="1" max="60" step="1">
+                <span class="separator">:</span>
+                <input type="number" id="work-seconds" value="0" min="0" max="59" step="1">
+                <span class="label">Minuten:Sekunden</span>
+            </div>
+        </div>
+        <div class="setting">
+            <label for="break-time">Pausenzeit:</label>
+            <div class="time-input">
+                <input type="number" id="break-time" value="5" min="1" max="15" step="1">
+                <span class="separator">:</span>
+                <input type="number" id="break-seconds" value="0" min="0" max="59" step="1">
+                <span class="label">Minuten:Sekunden</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="buttons">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+    </div>
+    <button id="dark-mode-toggle">Dark Mode</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
