@@ -20,8 +20,7 @@ function updateTimeElement() {
 }
 
 function updateStatus() {
-    if(!isWorkTime)
-    {
+    if (!isWorkTime) {
         setTimeout(() => {
             const explosion = document.querySelector(".explosion");
             explosion.style.opacity = "1";

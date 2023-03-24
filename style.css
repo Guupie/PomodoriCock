@@ -20,7 +20,7 @@ h1 {
     border-radius: 5px;
     padding: 20px;
     margin: 20px 0;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .time {
@@ -39,7 +39,7 @@ h1 {
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .buttons {
@@ -55,7 +55,7 @@ button {
     font-size: 1.5em;
     margin: 0 10px;
     cursor: pointer;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 button:hover {
@@ -70,7 +70,7 @@ button:hover {
     background-color: red;
 }
 
-#reset{
+#reset {
     background-color: darkorange;
 }
 
@@ -142,7 +142,7 @@ button {
 
 button:hover {
     transform: scale(1.1);
-    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Hinzufügen von Animationen für die Eingabeelemente */
@@ -151,7 +151,7 @@ input[type="number"] {
 }
 
 input[type="number"]:focus {
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
     outline: none;
 }
 
@@ -207,7 +207,7 @@ input[type="number"]:focus {
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .settings label {
@@ -251,11 +251,13 @@ input[type="number"]:focus {
 .setting label {
     font-size: 1.5em;
     margin-right: 10px;
-}.time-input {
-     display: flex;
-     justify-content: flex-start;
-     align-items: center;
- }
+}
+
+.time-input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 .time-input input[type="number"] {
     font-size: 1.5em;
